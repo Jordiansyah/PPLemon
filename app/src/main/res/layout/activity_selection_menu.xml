@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -17,22 +18,22 @@
             android:orientation="vertical"
             android:layout_weight="1">
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/alphabet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ButtonTitit"
+                android:text="Alphabet"
                 android:background="@drawable/curved_button"/>
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ButtonTitit"
+                android:text="Number"
                 android:background="@drawable/curved_button"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_weight="1">
             <Button
                 android:id="@+id/aboutMandala"
@@ -41,10 +42,10 @@
                 android:text="About Mandala"
                 android:background="@drawable/curved_button"/>
             <Button
-                android:id="@+id/button12"
+                android:id="@+id/basic_1"
                 android:layout_height="wrap_content"
                 android:layout_width="match_parent"
-                android:text="ButtonTitit"
+                android:text="Basic 1"
                 android:background="@drawable/curved_button"/>
         </LinearLayout>
     </LinearLayout>

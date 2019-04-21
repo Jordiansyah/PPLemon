@@ -15,11 +15,10 @@ public class MainMenu extends AppCompatActivity {
         setContentView(R.layout.activity_main_menu);
 
         StartButton = (Button) findViewById(R.id.startButton);
-
         StartButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainMenu.this, SelectionMenu.class));
+                startActivity(new Intent(MainMenu.this, MandalaMenu.class));
             }
         });
     }

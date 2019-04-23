@@ -18,12 +18,12 @@
                                 <PersistentState>
                                   <option name="children">
                                     <map>
-                                      <entry key="image">
+                                      <entry key="clipartAsset">
                                         <value>
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="trimmed" value="true" />
+                                                <entry key="url" value="jar:file:/D:/Android/AndroidStudio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_volume_up_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,9 +33,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="D:\Unpad\Semester 6\Praktikum\PPL\MandalaBackground.png" />
-                                      <entry key="outputName" value="ic_mandala_background" />
+                                      <entry key="outputName" value="ic_sound" />
+                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="themeColor" value="44dde5" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -54,11 +54,6 @@
                 </map>
               </option>
             </PersistentState>
-          </value>
-        </entry>
-        <entry key="vectorWizard">
-          <value>
-            <PersistentState />
           </value>
         </entry>
       </map>

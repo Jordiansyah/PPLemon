@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,17 +9,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/mandalabackground">
 
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:layout_marginStart="116dp"
             android:layout_marginTop="16dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="center_horizontal"
             app:srcCompat="@drawable/abigail" />
+
+        <Button
+            android:id="@+id/what_is_aksara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/aksara_menu"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Aksara (Apa itu Aksara?)"
+            android:textSize="15sp"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/lesson_1"
@@ -30,61 +44,86 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:text="Lesson 1" />
-
-        <Button
-            android:id="@+id/lesson_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:background="@drawable/aksara_menu"
-            android:layout_marginTop="10dp"
-            android:text="Lesson 2" />
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 1"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/lesson_3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/aksara_menu"
             android:layout_marginTop="10dp"
-            android:text="Lesson 3" />
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 2"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/lesson_4"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/aksara_menu"
             android:layout_marginTop="10dp"
-            android:text="Lesson 4" />
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 3"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/lesson_5"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/aksara_menu"
             android:layout_marginTop="10dp"
-            android:text="Lesson 5" />
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 4"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/lesson_6"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/aksara_menu"
             android:layout_marginTop="10dp"
-            android:text="Lesson 6" />
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 5"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/lesson_7"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="@drawable/aksara_menu"
             android:layout_marginTop="10dp"
-            android:text="Lesson 7" />
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="30dp"
+            android:text="Lesson 6"
+            android:textSize="15sp"
+            android:textAllCaps="false" />
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>

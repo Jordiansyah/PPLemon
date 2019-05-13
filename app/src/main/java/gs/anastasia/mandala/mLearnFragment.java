@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 
 import gs.anastasia.mandala.lesson.Basic1;
@@ -38,12 +39,15 @@ public class mLearnFragment extends Fragment {
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        ImageView profileImage;
         super.onViewCreated(view, savedInstanceState);
 
 
         // initialize views
         mContent = view.findViewById(R.id.mLearnFragment);
         mScrollView = (ScrollView) view.findViewById(R.id.sView);
+
+        view.setBackgroundResource(R.drawable.mandalabackground);
 
         final View aboutMandala = view.findViewById(R.id.aboutMandala);
         aboutMandala.setOnClickListener((View v) -> {

@@ -85,13 +85,16 @@
 
     <!-- String for About Mandala -->
     <string name="about_title">
-        Cirilla Fiona Elen Riannon
+        "Sampurasun!"
     </string>
     <string name="about_mandala">
-        Ciri, or rather Cirilla Fiona Elen Riannon, is heir to the Kingdom of Cintra, a once-independent realm that is now an annexed province of the Nilfgaardian Empire.
-            At the same time, she is heir to the throne of that empire as well, being the daughter of the current emperor, Emhyr var Emreis.
-            Before she was born she was promised to Geralt of Rivia through the ancient Law of Surprise, which bound her fate to his with powerful ties of destiny.
-            This inter-linkage of fates has enabled Geralt to save her life on many occasions and led to him taking her on as his ward, adopted daughter, and protégé.
+        "\nPerkenalkan kami dari tim pengembangan Aplikasi Mandala."
+        "\n\nMandala merupakan aplikasi pengajaran bahasa sunda."
+        "Kamu bisa belajar banyak hal tentang bahasa sunda mulai dari aksara sunda, "
+        "kata sehari-hari dalam bahasa sunda, dan masih banyak lagi."
+        "Kamu juga bisa bermain games yang bakal membantu kamu dalam mempelajari bahasa sunda."
+        "\n\nMandala juga punya figur yang lucu loh, namanya Macan Dala. Bersama Macan Dala, yuk kita belajar bahasa sunda!"
+        "\n\n\nTim Pengembang\nAdnan J. Y.\nSatrio S. A\nM. Jordiansya\nM. Ihza T.\nBeryl C. H."
     </string>
 
     <!-- TODO: Remove or change this placeholder text -->

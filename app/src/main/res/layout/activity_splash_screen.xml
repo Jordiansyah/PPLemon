@@ -16,7 +16,7 @@
             android:id="@+id/news_icon"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/abigail"/>
+            android:src="@drawable/palamacan"/>
 
         <TextView
             android:textStyle="bold"
@@ -24,7 +24,7 @@
             android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Mandala\nManuskrip Dalam Aplikasi"/>
+            android:text="Mandala\nSunda Dalam Aplikasi"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

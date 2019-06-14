@@ -55,8 +55,8 @@ public class mLearnFragment extends Fragment {
                 startActivity(intent);
         });
 
-        final View aksara = view.findViewById(R.id.aksara);
-        aksara.setOnClickListener((View v)->{
+        final View basic1 = view.findViewById(R.id.basic1);
+        basic1.setOnClickListener((View v)->{
             Intent intent = new Intent(getActivity(), Basic1.class);
             startActivity(intent);
         });
